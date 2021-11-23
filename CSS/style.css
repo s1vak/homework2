@@ -2,5 +2,54 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@700&display=swap"); */
 body {
   font-family: "Roboto", sans-serif;
-  font-family: "Raleway", sans-serif;
+  color: #212121; /*"Roboto", "Raleway", sans-serif inherit; */
+}
+button {
+  cursor: pointer;
+}
+
+.header-list {
+  list-style-type: none;
+}
+.header-link {
+  font-size: 14px;
+  line-height: 16px;
+  text-decoration: none;
+  color: #212121;
+}
+.header-link:hover {
+  color: #2196f3;
+}
+.main-list {
+  list-style-type: none;
+}
+.main-link {
+  font-size: 16px;
+  line-height: 26px;
+  text-decoration: none;
+  color: #212121;
+}
+.main-content {
+  list-style-type: none;
+}
+/* .main-content > li  */
+.main-content-list {
+  text-decoration: none;
+}
+.main-content a {
+  text-decoration: none;
+}
+.main-content h2 {
+  font-size: 18px;
+  line-height: 36px;
+  color: #212121;
+}
+.main-content p {
+  font-size: 16px;
+  line-height: 30px;
+  color: #757575;
+}
+.footer-link {
+  text-decoration: none;
+  color: #757575;
 }
