@@ -5,12 +5,9 @@ body {
   color: #212121;
   /*"Roboto", "Raleway", sans-serif inherit; */
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
+ul {
+  list-style: none;
+}
 a {
   text-decoration: none;
 }
@@ -20,9 +17,7 @@ button {
 button:hover {
   background-color: #2196f3;
 }
-.header-list {
-  list-style-type: none;
-}
+
 .header-link {
   font-size: 14px;
   line-height: 16px;
@@ -31,17 +26,13 @@ button:hover {
 .header-link:hover {
   color: #2196f3;
 }
-.main-list {
-  list-style-type: none;
-}
+
 .main-link {
   font-size: 16px;
   line-height: 26px;
   color: #212121;
 }
-.main-content {
-  list-style-type: none;
-}
+
 /* .main-content > li  */
 
 .main-content h2 {
