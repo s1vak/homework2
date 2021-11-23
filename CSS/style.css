@@ -5,6 +5,15 @@ body {
   color: #212121;
   /*"Roboto", "Raleway", sans-serif inherit; */
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+  text-decoration: none;
+}
 button {
   cursor: pointer;
 }
@@ -17,7 +26,6 @@ button:hover {
 .header-link {
   font-size: 14px;
   line-height: 16px;
-  text-decoration: none;
   color: #212121;
 }
 .header-link:hover {
@@ -29,19 +37,13 @@ button:hover {
 .main-link {
   font-size: 16px;
   line-height: 26px;
-  text-decoration: none;
   color: #212121;
 }
 .main-content {
   list-style-type: none;
 }
 /* .main-content > li  */
-.main-content-list {
-  text-decoration: none;
-}
-.main-content a {
-  text-decoration: none;
-}
+
 .main-content h2 {
   font-size: 18px;
   line-height: 36px;
@@ -53,6 +55,5 @@ button:hover {
   color: #757575;
 }
 .footer-link {
-  text-decoration: none;
   color: #757575;
 }
