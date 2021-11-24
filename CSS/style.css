@@ -12,6 +12,7 @@ a {
   text-decoration: none;
 }
 button {
+  font-family: inherit;
   cursor: pointer;
 }
 button:hover {
